@@ -1,0 +1,268 @@
+*{
+    background-color: #fffdd0;
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+@media only screen and (min-width: 320px){
+    header{
+        background-color: seashell;
+        text-align: center;
+        padding: 5px;
+        border: black solid 2px;
+        margin: 10px;
+    }
+    header h1, 
+    header h4{
+        background-color: seashell;
+        font-family: 'Galada', cursive;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        position: sticky;
+        top: 0;
+    }
+    nav a{
+        padding: 4px;
+        border: solid 2px black;
+        text-decoration: none;
+        color:black;
+    }
+    nav a:hover{
+        background-color: pink;
+    }
+    nav a:visited{
+        color: salmon
+    }
+    .advert{
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        overflow:auto;
+        margin-top: 10px;
+    }
+    #sale{
+        text-decoration: double underline;
+        color: red;
+    }
+    #cookbook{
+        height: 100px;
+    }
+    .testimonies p{
+        background-color: seashell;
+        border: black solid 5px;
+        padding: 8px;
+        text-align: center;
+        font-family: 'Galada', cursive;
+    }
+    #bday{
+        width: 400px;
+    }
+    #cousin{
+        width: 400px;
+    }
+    table{
+        text-align: center;
+        border-collapse: collapse;
+        margin: auto;
+    }
+    th, td{
+        border: black solid 2px;
+        padding: 5px;
+    }
+    footer{
+        border: solid black 2px;
+        margin: 10px;
+        margin-top: 25px;
+        background-color: seashell;
+        padding: 5px;
+    }
+    footer p{
+        background-color: seashell;
+    }
+    #cookbookAd{
+        text-align: center;
+    }
+    #cookbookAd a{
+        background-color: seashell;
+    }
+    #contact span{
+        background-color: seashell;
+    }
+    #contact{
+        text-align: right;
+    }
+    .flexbox{
+        text-align: center;
+    }
+
+    .flexbox li{
+        list-style: inside;
+    }
+
+    #one{
+        border: solid;
+        margin: 15px;
+    }
+    #two{
+        border: solid;
+        margin: 15px;
+    }
+    #three{
+        border: solid;
+        margin: 15px;
+    }
+    #four{
+        border: solid;
+        margin: 15px;
+    }
+    #five{
+        border: solid;
+        margin: 15px;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery img{
+        width:200px;
+        border: dashed 5px pink;
+        margin: 10px;
+    }
+    #Jcookie{
+        width: 200px;
+    }
+    #Icing{
+        width: 200px;
+    }
+    #SecretIngredient{
+        width: 200px;
+    }
+    .dedication h1{
+        font-family: 'Galada', cursive;
+        text-align: center;
+    }
+    .dedication{
+        text-align: center;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+   .gallery2 img{
+    width: 300px;
+    margin: 15px;
+    border: solid black;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    nav a{
+        margin-right: 15px;
+    }
+    #cookbook{
+      width: 200px;
+      height:200px;
+      margin-top: 10px;
+    }
+    .testimonies{
+        width: 500px;
+        margin: auto;
+    }
+    .testimonies p{
+        padding: 25px;
+    }
+    .gallery1{
+        overflow: auto;
+    }
+    #bday{
+        float: left;
+        width: 500px;
+        height: 300px;
+        margin-left: 10%;
+    }
+    #cousin{
+        float: right;
+        width: 500px;
+        height: 300px;
+        margin-right: 10%;
+    }
+    .flexbox{
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+    }
+    .flexbox h3{
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    .gallery{
+        flex-direction: row;
+    }
+    .gallery img{
+        width: 400px;
+    }
+    #Jcookie{
+        float: left;
+    }
+    #Icing{
+        float: left;
+    }
+    #SecretIngredient{
+        float: left;
+    }
+    .dedication{
+        text-align: center;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery2{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #text1, #text2, #text3, #text4{
+        display: none;
+    }
+
+    #Grandparents:hover + #text1{
+         display: block;
+        font-family: 'Amatic SC', cursive;
+    }
+    #Family2017:hover + #text2{
+        display: block;
+       font-family: 'Amatic SC', cursive;
+   }
+    #Easter:hover + #text3{
+         display: block;
+        font-family: 'Amatic SC', cursive;
+    }
+    #Dad:hover + #text4{
+        display: block;
+       font-family: 'Amatic SC', cursive;
+   }
+}
